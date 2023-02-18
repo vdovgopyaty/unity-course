@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ToggleSG
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":124.0,"y":-51.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"onToggle","$type":"System.String"}},"position":{"x":-321.0,"y":-122.0},"guid":"fa14473b-1583-4fb6-94a2-c3fe159ed04b","$version":"A","$type":"Unity.VisualScripting.BoltUnityEvent","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-316.0,"y":-254.0},"guid":"6c41dbe9-3932-4b46-a3aa-f1bebd206eb7","$version":"A","$type":"Unity.VisualScripting.Start","$id":"11"},{"argumentCount":1,"defaultValues":{"name":{"$content":"onToggle","$type":"System.String"},"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-86.0,"y":-223.0},"guid":"a38eef56-5ff4-45ca-bd6a-3a4526aee388","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"13"},{"member":{"name":"isOn","parameterTypes":null,"targetType":"UnityEngine.UI.Toggle","targetTypeName":"UnityEngine.UI.Toggle","$version":"A"},"defaultValues":{"target":null},"position":{"x":-321.0,"y":-1.0},"guid":"962a0154-634f-4ee5-9bf7-f0b01a73c9d4","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"9b639d08-a97b-41f2-9879-68c11f97ee20","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"eef6206e-e4c8-4976-b30b-7a41f38a66db","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"argument_0","guid":"a144af96-19f1-4f9f-99de-b099b5577f6c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 3412159127131126677, guid: 84f57a59168d80542a73db5d263a6e21, type: 3}
