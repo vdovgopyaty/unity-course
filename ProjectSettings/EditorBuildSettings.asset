@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Internal/Scenes/VirtualSetup.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Internal/Scenes/MainCompose.unity
+    guid: fef7d5dd6ddf0b54d836b11743c7d9ae
+  - enabled: 1
+    path: Assets/Internal/Scenes/Pult.unity
+    guid: 2ab5f84c10f27b647b2f231bd11933a6
+  - enabled: 1
+    path: Assets/Internal/Scenes/Content/1.unity
+    guid: 81c59ae0df21fba45a756a513dd8215e
+  - enabled: 1
+    path: Assets/Internal/Scenes/Content/2.unity
+    guid: 233fb25602ff1a74595afd3e24ddd5f5
   m_configObjects: {}
