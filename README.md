@@ -11,6 +11,8 @@
 9. Звук https://github.com/vdovgopyaty/unity-course/tree/9-sound
 10. Шейдеры https://github.com/vdovgopyaty/unity-course/tree/10-shaders
 
+---
+
 
 ## Virtual Setup Architecture
 
